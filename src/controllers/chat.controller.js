@@ -1,6 +1,6 @@
 import {Conversation} from "../models/conversation.model.js";
 import {Message} from "../models/message.model.js";
-import admin from "../config/firebaseadmin.js";
+import admin from "../config/firebaseAdmin.js";
 import User from "../models/user.model.js";
 
 async function createConversation(req, res) {
