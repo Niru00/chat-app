@@ -1,6 +1,6 @@
 import User from "../models/user.model.js";
 import jwt from "jsonwebtoken";
-import imagekit from "../config/imagekit.js";
+import imagekit from "../config/Imagekit.js";
 
 async function googleController(req, res) {
   try {
