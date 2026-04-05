@@ -1,4 +1,4 @@
-import {Conversation} from "../models/Conversation.model.js";
+import {Conversation} from "../models/conversation.model.js";
 import {Message} from "../models/message.model.js";
 import admin from "../config/firebaseadmin.js";
 import User from "../models/user.model.js";
