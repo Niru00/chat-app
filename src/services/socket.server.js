@@ -7,7 +7,7 @@ import User from "../models/user.model.js";
     export const initSocketServer = (server) => {
     const io = new Server(server, {
         cors: {
-            origin: "http://localhost:5173",
+            origin: "https://chat-iznx.onrender.com",
             methods: ["GET", "POST"],
             credentials: true
         }

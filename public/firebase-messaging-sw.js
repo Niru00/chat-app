@@ -31,7 +31,7 @@ self.addEventListener("notificationclick", (event) => {
   event.notification.close();
 
   const conversationId = event.notification.data.conversationId;
-  const url = `http://localhost:5173/chat/${conversationId}`;
+  const url = `https://chat-iznx.onrender.com/chat/${conversationId}`;
 
   event.waitUntil(
     clients.matchAll({ type: "window", includeUncontrolled: true })
